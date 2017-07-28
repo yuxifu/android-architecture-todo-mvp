@@ -37,12 +37,25 @@ import static org.mockito.Mockito.inOrder;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
+/*
+Static imports allow you to call static members, i.e., methods and fields of a class directly
+without specifying the class.
+Using static imports greatly improves the readability of your test code, you should use it.
+ */
+
 /**
  * Unit tests for the implementation of {@link TasksPresenter}
  */
 public class TasksPresenterTest {
 
     private static List<Task> TASKS;
+
+    /* The most used widely used annotation in Mockito is @Mock. We can use @Mock to create
+    and inject mocked instances without having to call Mockito.mock manually.
+     */
+
+    /* use the @Captor annotation to create an ArgumentCaptor instance.
+     */
 
     @Mock
     private TasksRepository mTasksRepository;

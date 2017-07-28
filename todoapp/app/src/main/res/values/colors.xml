@@ -18,6 +18,10 @@
     <color name="colorPrimary">#455A64</color>
     <color name="colorPrimaryDark">#263238</color>
     <color name="colorAccent">#D50000</color>
+    <color name="colorStatusBar">#FF00FF</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorGreen">#00FF00</color>
+    <color name="colorBlue">#0000FF</color>
 
     <drawable name="completedTaskBackground">#CCCCCC</drawable>
 

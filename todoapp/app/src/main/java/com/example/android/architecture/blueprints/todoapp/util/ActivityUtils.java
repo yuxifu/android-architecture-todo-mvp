@@ -42,4 +42,9 @@ public class ActivityUtils {
         transaction.commit();
     }
 
+    /*
+    https://github.com/googlesamples/android-architecture/pull/113
+    @NonNull is for static analysis(for compiler and static analyzer tools like FindBugs and other).
+    checkNotNull() is for runtime checks(as @k0ber wrote). So this is not redundant.
+     */
 }

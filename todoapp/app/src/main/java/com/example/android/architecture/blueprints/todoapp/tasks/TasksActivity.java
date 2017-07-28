@@ -56,7 +56,7 @@ public class TasksActivity extends AppCompatActivity {
 
         // Set up the navigation drawer.
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
-        mDrawerLayout.setStatusBarBackground(R.color.colorPrimaryDark);
+        mDrawerLayout.setStatusBarBackground(R.color.colorStatusBar);
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         if (navigationView != null) {
             setupDrawerContent(navigationView);

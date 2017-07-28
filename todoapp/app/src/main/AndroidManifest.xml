@@ -46,3 +46,24 @@
     </application>
 
 </manifest>
+
+
+<!--  Yuxi Fu
+
+android:allowBackup: Whether to allow the application to participate in the backup and restore infrastructure.
+
+android:icon
+
+android:label: A user-readable label for the application as a whole, and a default label for each of the application's components.
+The label should be set as a reference to a string resource, so that it can be localized like other strings in the user interface.
+
+android:supportsRtl: Declares whether your application is willing to support right-to-left (RTL) layouts.
+The default value of this attribute is false.
+
+android:theme: A reference to a style resource defining a default theme for all activities in the application.
+Individual activities can override the default by setting their own theme attributes.
+
+tools:ignore: Used by: Lint. This attribute accepts a comma-separated list of lint issue ID's that you'd
+like the tools to ignore on this element or any of its decendents.
+
+-->
